@@ -155,7 +155,18 @@ h5 {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
+#arrow-div {
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    vertical-align: bottom!important;
+}
+#arrow {
+    height:100px;
+    width: 100px;
+    vertical-align: bottom!important;
+}
 
 @media screen
   and (min-width: 300px) 

@@ -14,4 +14,14 @@ $(document).ready(function () {
     $('.card').hover(
         function () { $(this).toggleClass('animated tada') }
     )
+    //arrow show and hide
+    $('#arrow-div').hide();
+    setTimeout(function() {
+        $('#arrow-div').fadeIn();
+    }, 3000);
+    //hide arrow on page scroll
+    $(window).scroll(function() {
+        $('#arrow-div').fadeOut();
+    });
+
 });
