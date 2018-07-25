@@ -1,2 +1,2 @@
 # My-Portfolio
-Developer Portfolio
+My developer portfolio and contact information
