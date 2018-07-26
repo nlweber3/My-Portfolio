@@ -18,7 +18,7 @@ $(document).ready(function () {
     $('#arrow-div').hide();
     setTimeout(function() {
         $('#arrow-div').fadeIn();
-    }, 3000);
+    }, 2000);
     //hide arrow on page scroll
     $(window).scroll(function() {
         $('#arrow-div').fadeOut();
