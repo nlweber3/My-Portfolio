@@ -27,4 +27,7 @@ $(document).ready(function () {
     $('.nav-item').hover(
         function () { $(this).toggleClass('animated pulse')}
     )
+
+
+    
 });

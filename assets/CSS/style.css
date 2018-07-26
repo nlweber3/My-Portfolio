@@ -206,4 +206,20 @@ h5 {
     h5{
         font-size: 10vw;
     }
+    #social {
+        width:30vw;
+        height:20vh;
+    }
+    .card {
+        width: 30vw;
+        height: 40vh;
+        margin-bottom: 10px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .card-img-top {
+        width: 143px;
+        height: 143px;
+    }
   }
