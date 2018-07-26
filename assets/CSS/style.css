@@ -49,14 +49,14 @@ left: 41px;
     width: 300px;
 }
 .main-body {
-	width: 100wh;
+	width: 100vw;
 	height: 100vh;
 	color: #fff;
 	background: linear-gradient(-45deg,#FFD700,	#686868, #303030, #FFD700);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
@@ -173,6 +173,11 @@ h5 {
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
     vertical-align: middle;
+    margin-top: 100px;
+    width: 80vw;
+    position: absolute;
+    margin-left: 10vw;
+
 }
 #connect {
     margin-top: 20px;
