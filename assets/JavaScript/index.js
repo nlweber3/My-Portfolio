@@ -23,5 +23,8 @@ $(document).ready(function () {
     $(window).scroll(function() {
         $('#arrow-div').fadeOut();
     });
-
+    //animate nav links
+    $('.nav-item').hover(
+        function () { $(this).toggleClass('animated pulse')}
+    )
 });
