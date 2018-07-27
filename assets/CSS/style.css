@@ -189,9 +189,9 @@ h5 {
 }
 .carousel-inner {
     margin: auto;
-    width: 80vw;
-    height: 80vh;
-    margin-top: 5vh;
+    width: 70vw;
+    height: 70vh;
+    margin-top: 15vh;
 }
 .d-block {
     height: 100vh;
@@ -221,5 +221,9 @@ h5 {
     .card-img-top {
         width: 143px;
         height: 143px;
+    }
+    .carousel-inner {
+        width: 100vw;
+        height: 100vh;
     }
   }

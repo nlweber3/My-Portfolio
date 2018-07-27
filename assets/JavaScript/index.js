@@ -16,18 +16,20 @@ $(document).ready(function () {
     )
     //arrow show and hide
     $('#arrow-div').hide();
-    setTimeout(function() {
+    setTimeout(function () {
         $('#arrow-div').fadeIn();
     }, 2000);
     //hide arrow on page scroll
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         $('#arrow-div').fadeOut();
     });
     //animate nav links
     $('.nav-item').hover(
-        function () { $(this).toggleClass('animated pulse')}
-    )
+        function () { $(this).toggleClass('animated pulse') })
+
+    // $('.carousel-control-next').click(function () {
+    //     $(".carousel-item").toggleClass('animated hinge')
+    // })
 
 
-    
 });
